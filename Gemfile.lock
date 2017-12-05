@@ -3,7 +3,6 @@ GEM
   specs:
     imgkit (1.6.1)
     redcarpet (3.4.0)
-    wkhtmltoimage-binary (0.12.4)
 
 PLATFORMS
   ruby
@@ -11,7 +10,6 @@ PLATFORMS
 DEPENDENCIES
   imgkit
   redcarpet
-  wkhtmltoimage-binary
 
 BUNDLED WITH
    1.16.0
