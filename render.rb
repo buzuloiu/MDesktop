@@ -9,8 +9,11 @@ background =  Background.new
 
 background.clean_temp
 
-
-theme = background.set_theme(parse_args.to_s)
+if ARGV[0].nil?
+  theme = background.set_theme("default")
+else
+  theme = background.set_theme(parse_args.to_s)
+end
 
 puts "Generating HTML from Markdown"
 
