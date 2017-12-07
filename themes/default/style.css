@@ -1,0 +1,58 @@
+
+@font-face {
+  font-family: emoji;
+
+  src:
+              url('/Users/paul/Downloads/emojione-svg.woff'),
+              url('/Users/paul/Downloads/emojione-apple.ttf'),
+              url('/Users/paul/Downloads/OpenSansEmoji/OpenSansEmoji.ttf'),
+              url('/Users/paul/Downloads/NotoColorEmoji-unhinted/NotoColorEmoji.ttf'),
+              url('/Users/paul/Downloads/NotoEmoji-unhinted/NotoEmoji-Regular.ttf');
+
+  /* Emoji unicode blocks */
+  unicode-range: U+1F300-1F5FF, U+1F600-1F64F, U+1F680-1F6FF, U+2600-26FF;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    font-family: emoji, Helvetica, Arial, sans-serif;
+    //font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    //text-align: center;
+    //font-family: Helvetica, Arial, emoji, Sans-Serif;
+
+    //-webkit-text-stroke-width: 4px;
+    //-webkit-text-stroke-color: white;
+
+  }
+
+  body{
+    background-color: #515151;
+
+
+  }
+
+  table, th, td {
+     border: 1px solid black;
+     border-collapse: collapse;
+  }
+
+  tr:nth-child(even) {bbb
+    background-color: #848484;
+  }
+  tr:nth-child(odd) {
+    background-color: #888888;
+  }
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+code {
+    font-family: monospace;
+    //background-color: #fff;
+    border-radius: 5%;
+}

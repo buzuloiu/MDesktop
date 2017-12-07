@@ -1,0 +1,52 @@
+
+@font-face {
+  font-family: emoji;
+
+  src:
+              url('/Library/Fonts/emojione-svg.woff');
+            
+
+  /* Emoji unicode blocks */
+  unicode-range: U+1F300-1F5FF, U+1F600-1F64F, U+1F680-1F6FF, U+2600-26FF;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    font-family: emoji, Helvetica, Arial, sans-serif;
+    text-align: center;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: white;
+
+  }
+
+  body{
+    background-color: #515151;
+
+
+  }
+
+  table, th, td {
+     border: 1px solid black;
+     border-collapse: collapse;
+  }
+
+  tr:nth-child(even) {bbb
+    background-color: #848484;
+  }
+  tr:nth-child(odd) {
+    background-color: #888888;
+  }
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+code {
+    font-family: monospace;
+    //background-color: #fff;
+    border-radius: 5%;
+}
