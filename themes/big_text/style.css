@@ -17,6 +17,7 @@
     text-align: center;
     -webkit-text-stroke-width: 4px;
     -webkit-text-stroke-color: white;
+    text-shadow: 3px 3px 4px #000000;
 
   }
 
