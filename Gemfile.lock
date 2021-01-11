@@ -4,7 +4,7 @@ GEM
     fastimage (2.1.0)
     imgkit (1.6.1)
     mini_magick (4.8.0)
-    redcarpet (3.4.0)
+    redcarpet (3.5.1)
     wkhtmltoimage-binary (0.12.4)
 
 PLATFORMS
